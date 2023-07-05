@@ -83,3 +83,23 @@ footer {
   margin: 10px;
   background-color: white;
 }
+/* responsive style */
+@media screen and (max-width: 800px) {
+  h1{
+    font-size: 13vw;
+  }
+  .drum{
+    flex: 25%;
+  }
+  .set {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+  footer {
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    bottom: 0;
+  }
+}
